@@ -1,0 +1,38 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.5.33103.201
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{D954291E-2A0B-460D-934E-DC6B0785DB48}") = "InstaCloneUno.Shared", "InstaCloneUno\InstaCloneUno.Shared\InstaCloneUno.Shared.shproj", "{6279C845-92F8-4333-AB99-3D213163593C}"
+EndProject
+Project("{2150E333-8FDC-42A3-9474-1A3956D46DE8}") = "Platforms", "Platforms", "{BAD4AFB0-9B7E-434D-855C-B1E4376BB932}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "InstaCloneUno.Mobile", "InstaCloneUno\InstaCloneUno.Mobile\InstaCloneUno.Mobile.csproj", "{B17E54EF-1532-44BF-9B1C-46D1ADEE2F9C}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{B17E54EF-1532-44BF-9B1C-46D1ADEE2F9C}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{B17E54EF-1532-44BF-9B1C-46D1ADEE2F9C}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{B17E54EF-1532-44BF-9B1C-46D1ADEE2F9C}.Debug|Any CPU.Deploy.0 = Debug|Any CPU
+		{B17E54EF-1532-44BF-9B1C-46D1ADEE2F9C}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{B17E54EF-1532-44BF-9B1C-46D1ADEE2F9C}.Release|Any CPU.Build.0 = Release|Any CPU
+		{B17E54EF-1532-44BF-9B1C-46D1ADEE2F9C}.Release|Any CPU.Deploy.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(NestedProjects) = preSolution
+		{B17E54EF-1532-44BF-9B1C-46D1ADEE2F9C} = {BAD4AFB0-9B7E-434D-855C-B1E4376BB932}
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {DC8E745B-70CA-4505-BDC3-BACC04945C3A}
+	EndGlobalSection
+	GlobalSection(SharedMSBuildProjectFiles) = preSolution
+		InstaCloneUno\InstaCloneUno.Shared\InstaCloneUno.Shared.projitems*{6279c845-92f8-4333-ab99-3d213163593c}*SharedItemsImports = 13
+		InstaCloneUno\InstaCloneUno.Shared\InstaCloneUno.Shared.projitems*{b17e54ef-1532-44bf-9b1c-46d1adee2f9c}*SharedItemsImports = 5
+	EndGlobalSection
+EndGlobal
